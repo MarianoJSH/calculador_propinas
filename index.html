@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Calculadora de Propinas</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        margin: 0;
+        padding: 20px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      h1 {
+        text-align: center;
+        color: #333;
+        font-size: 2em;
+        margin-bottom: 30px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      Web app que calcula propinas para el camarero según un porcentaje
+      establecido
+    </h1>
+    <!--Insertamos aquí nuestro custom element-->
+    <tip-calculator></tip-calculator>
+
+    <script type="module" src="./tip-calculator.js"></script>
+  </body>
+</html>
